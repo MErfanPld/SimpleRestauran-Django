@@ -6,6 +6,8 @@ source .venv/bin/activate
 
 pip install -r requirements.txt
 
+./manage.py collectstatic
+
 ./manage.py createsuperuser
 
 ./manage.py runserver```
